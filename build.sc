@@ -27,7 +27,11 @@ object Examples extends CommonModule with ScalafmtModule {
     def moduleDeps = Seq(Examples)
   }
 
-  object ch2 extends CommonModule {
+  object ch3 extends CommonModule {
+    def moduleDeps = Seq(Examples)
+  }
+
+  object ch4 extends CommonModule {
     def moduleDeps = Seq(Examples)
   }
 
